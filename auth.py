@@ -30,11 +30,6 @@ def register_user():
         print("Password must be at least 6 characters long!")
         return
 
-    name = input("Enter your full name: ")
-    address = input("Enter your address: ")
-    phone = input("Enter your phone number: ")
-    dob = input("Enter your Date of Birth (YYYY-MM-DD): ")
-
 # Additional user details
     name = input("Enter your full name: ")
     while True:
