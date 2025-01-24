@@ -59,10 +59,9 @@ python main.py
 project/
 │── main.py               # Main entry point of the program
 │── auth.py               # Handles user registration & authentication
-│── dashboard.py          # Handles user dashboard and profile management
-│── task_manager.py       # Manages task creation, deletion, and updates
+│── user_profile.py       # Handles user dashboard and profile management
+│── tasks.py              # Manages task creation, deletion, and updates
 │── storage.py            # Handles data persistence (saving/loading JSON files)
-│── utils.py              # Utility functions (e.g., input validation)
 │── users.json            # User data storage
 │── tasks.json            # Task data storage
 │── README.md             # Project documentation
@@ -80,16 +79,5 @@ project/
 - **Date of Birth**: Must follow **YYYY-MM-DD format** and **cannot be a future date**.
 - **Passwords**: Must be at least **6 characters long**.
 
-## Future Enhancements
-- Implementing a graphical user interface (GUI).
-- Adding password hashing for enhanced security.
-- Integrating a database (SQLite, PostgreSQL, etc.) for persistence.
-
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the **MIT License**.
-
-## Contact
-For questions or support, contact: [Your Email Here]
