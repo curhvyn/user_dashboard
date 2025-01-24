@@ -31,21 +31,8 @@ python --version
 
 ### **Cloning the Repository**
 ```sh
-git clone https://github.com/your-repo/user-auth-task-manager.git
-cd user-auth-task-manager
-```
-
-### **Setting Up the Environment**
-It is recommended to use a virtual environment:
-```sh
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-```
-
-### **Installing Dependencies**
-```sh
-pip install -r requirements.txt
+git clone https://github.com/curhvyn/user_dashboard.git
+cd user_dashboard
 ```
 
 ## Running the Application
